@@ -1,0 +1,237 @@
+/* body {
+    padding: 0px 60px;
+} */
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+ padding: 0px 40px;
+}
+
+h1, h2, h3 {
+    font-family: serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+        display: flex !important
+;
+        flex-basis: auto;
+        justify-content: right;
+    }
+
+    .hero {
+        margin-top: 100px;
+    }
+
+    h1, h2 {
+        font-size: 64px !important; 
+        font-weight: 500 !important;
+    }
+
+    
+    h1 span {
+        font-size: 84px !important; 
+        font-weight: 800;
+    }
+
+    .Photographer {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .line {
+        height: 1px !important;
+        width: 40% !important;
+        background-color: #4B4FAE !important;
+    }
+
+    .Photographer img {
+        width: 60%;
+    }
+
+    .intro img {
+        margin-top: 20px;
+    }
+
+    .hero-bottom-container {
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hero-bottom {
+        height: 280px;
+    }
+
+    .spacer {
+        height: 80px;
+    }
+
+    .about-text {
+      padding-top: 120px;  
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-text h2 span {
+        font-style: italic;
+        color: #4B4FAE;
+        font-family: serif;
+    }
+
+    .about-text p{
+        padding-right: 100px;
+    }
+
+    .about-img {
+        height: 500px;
+    }
+    
+    .about-img-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .heading h2 span {
+        font-style: italic;
+        color: #4B4FAE;
+        font-family: serif;
+    }
+    
+    .p1 {
+        display: flex;
+        gap: 40px;
+    }
+
+    .p1 p {
+        width: 50%;
+    }
+
+    .p1 img {
+        width: 48%;
+    }
+
+    .p2 img {
+        width: 100%;
+    }
+
+    .studio {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .studio h3 {
+        font-size: 42px;
+    }
+
+    .studio button {
+        padding: 12px 28px;
+        background-color: #fff;
+        font-family: serif;
+        font-size: 20px;
+    }
+
+    .studio button:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .std-img {
+        height: 300px;
+    }
+
+    .std-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    .footer {
+        padding: 60px 0px;
+        background-color: #F5F5F5;
+    }
+
+    form {
+        margin-top: 80px;
+    }
+
+    form button {
+        padding: 10px 10px;
+        background-color: #fff;
+        font-family: serif;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    form button:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    form input {
+        background-color: #F5F5F5;
+        height: 50px;
+    }
+
+    .footer-heading {
+        text-align: left;
+    }
+
+    .footer-heading span{
+        font-style: italic;
+        color: #4B4FAE;
+    }
+
+    .footer-bottom {
+        background-color: #F5F5F5;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #A7A5A5;
+    }
+
+    .social-container {
+        display: flex;
+        gap: 40px;
+        height: 200px;
+        align-items: end;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 100%;
+        border: 1px solid #4B4FAE;
+        margin-bottom: 20px;
+    }
+
+    .icon img {
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .social p {
+        font-family: serif;
+    }
